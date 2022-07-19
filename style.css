@@ -265,10 +265,24 @@ td, th{
         position: static;
         text-align: center;
     }
-    .container, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+
+    .productos li{
+        display: block;
+        width: auto;
+    }
+
+    .productos li img{
+        width: 100%;
+    }
+    
+    .container, .principal, .mapa-contenido, .contenido-diferenciales, .video, .productos{
         width: auto;
     }
     .lista-diferenciales, .img-diferenciales{
+        width: 100%;
+    }
+
+    main .container{
         width: 100%;
     }
 }
